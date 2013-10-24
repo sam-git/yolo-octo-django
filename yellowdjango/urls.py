@@ -17,7 +17,7 @@ urlpatterns = patterns('',
 
     ('^pages/', include('django.contrib.flatpages.urls')),
     url(r'api/', include('backend.urls', namespace='api')),
-    (r'^(?P<url>.*/)$', 'frontend.views.call_api'),
+    (r'^(?P<identifier>.*/)$', 'frontend.views.call_api'),
 )
 
 # urlpatterns += patterns('django.contrib.flatpages.views',
