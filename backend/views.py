@@ -18,4 +18,5 @@ def api(request, url):
         data = FlatPage.objects.filter(url=url)
         output3 = serializers.serialize("json", data, fields=('content'))
         return HttpResponse(output3, mimetype="application/json")
+    
     #not sure what to do if not a get request.
