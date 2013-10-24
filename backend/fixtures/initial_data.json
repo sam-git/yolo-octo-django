@@ -1,0 +1,32 @@
+[
+{
+ "pk": 1, 
+ "model": "flatpages.flatpage", 
+ "fields": {
+  "registration_required": false, 
+  "title": "Contact", 
+  "url": "/about/contact/", 
+  "template_name": "", 
+  "sites": [
+   1
+  ], 
+  "content": "Sam - smrgrace@gmail.com", 
+  "enable_comments": false
+ }
+},
+{
+ "pk": 2, 
+ "model": "flatpages.flatpage", 
+ "fields": {
+  "registration_required": false, 
+  "title": "About", 
+  "url": "/about/", 
+  "template_name": "", 
+  "sites": [
+   1
+  ], 
+  "content": "This is an app that uses Flat Pages contrib model.", 
+  "enable_comments": false
+ }
+}
+]
