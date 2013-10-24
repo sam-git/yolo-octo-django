@@ -14,9 +14,9 @@ urlpatterns = patterns('',
 
     # Uncomment the next line to enable the admin:
     url(r'^admin/', include(admin.site.urls)),
-    # ('^pages/', include('django.contrib.flatpages.urls')),
+    ('^pages/', include('django.contrib.flatpages.urls')),
 )
 
-urlpatterns += patterns('django.contrib.flatpages.views',
-    (r'^(?P<url>.*/)$', 'flatpage'),
-)
+# urlpatterns += patterns('django.contrib.flatpages.views',
+#     (r'^(?P<url>.*/)$', 'flatpage'),
+# )
